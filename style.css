@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    position:sticky;
+    top:0px;
+    /* background-color: aqua; */
+}
+#D-name{
+    color: white;
+    border-radius: 10px;
+    width: 31px;
+    height: 30px;
+    background-color:#f94a3d;
+}
+#web-name{
+    color:#f94a3d;
+}
+.links>h6>a{
+    margin:20px;
+    text-decoration:none;
+    color:#212244;
+    
+}
+
+#my-nav-search{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border:1px solid #f2f2f2; ;
+    padding-inline: 10px;
+}
+
+#my-nav-search>input{
+    border: none;
+    width: 26vw;
+    height:50px;
+    background-color: transparent;
+}
+
+.cart-img{
+    position: relative;
+   
+}
+#number{
+    text-align: center;
+    width:20px;
+    height: 20px;
+    border-radius:50%;
+    background-color: red;
+    position: absolute;
+    color:white;
+    right:180px;
+    bottom:65px;
+    
+    
+}
+
+.sign-in-btn>button{
+    width:109px;
+    height:40px;
+    background-color: #f94a3d;
+    border-radius:10px;
+    color:white;
+    border:none;
+}
+.hero{
+    background: linear-gradient(to right , rgba(249, 74, 61, 0.07),white);
+}
+
+.hero-text{
+    margin-top:180px;
+    padding-left: 30px;
+}
+#ht-row-1{
+    border-radius: 23px;
+    background-color: #FDECEC;
+    width: 229px;
+    height: 46px;
+    position:relative;
+}
+#ht-row1-txt{
+    color:#F94A3D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.fries-img>img{
+    position: absolute;
+    top:0px;
+    right:0px;
+    
+    border-radius: 23px;
+    border: 1px solid #FDECEC;
+}
+.ht-row2{
+    color: #212244;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 116.667% */
+}
+#door-txt{
+    color:#F94A3D;
+}
+#fd-desc-txt{
+    width:520px;
+    color:#69697B;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.explore-food-btn{
+    width: 174px;
+    height: 60px;
+    border-radius: 16px;
+    background: #F94A3D;
+    }
+.explore-food-btn button{
+    border:none;
+    background: transparent;
+    color:#F6F6F6;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#best-txt1{
+    color:#212244;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+}
+#best-txt2{
+    color:#69697B;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.about-us{
+    margin-inline: 50px;
+}
+
+.card-txt-box{
+    width: 340px;
+    height: 230px;
+    
+    border-radius: 20px;
+
+    
+    position: relative;
+    margin-top: 170px;
+    margin-inline: 10px;
+}
+.card-txt-box img{
+    position: absolute;
+    top:-170px;
+    right:80px;
+}
+.card-txt-box:hover{
+    border: 4px solid #ffcf04 ;
+}
+.card-txt{
+    color:  #212244;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding-left: 40px;
+    padding-top: 55px;
+ }
+
+
+#heading1{
+    color:#212244;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.special-receipe{
+    margin-top:50px;
+    margin-inline: 50px;
+    
+}
+.food-category>ul{
+    list-style-type: none;
+}
+.food-category>ul>li>a{
+    text-decoration: none;
+    color:#212244;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-inline: 15px;
+}
+
+.food-category>ul>li>a:hover{
+    color:red;
+    /* text-decoration: underline; */
+}
+.receipe-card{
+    border: 4px solid rgba(243, 243, 243, 1);
+    border-radius: 10px;
+    padding-inline: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(243, 243, 243, 1);
+    
+}
+.product-name{
+
+    color:#212244;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#price-txt{
+    text-align: center;
+    color:#69697B;
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+#price{
+    text-align: center;
+    color:#F94A3D;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;}
+.scroll{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial{
+    background-color: #F8F8F8;
+    margin-inline: 50px;
+
+}
+.testimonial-parent-box{
+    
+    
+    display: flex;
+    flex-direction: column;
+    border-right: 4px solid #69697B;   
+}
+.test-1{
+    margin-left: 100px;
+    /* border:1px solid #ffcf04; */
+}
+
+.footer{
+    /* border:14px solid blue; */
+    width:100vw;
+    background: linear-gradient(285deg, #FDF0F3 2.04%, rgba(255, 253, 242, 0.50) 50.97%, #FDEEF3 100.85%);
+}
+
+.boxCL-3{
+    width:45vw;
+}
+.footer-list{
+    width:55vw;
+}
+.footer-list>ul>li:first-child{
+    color: #2E2E2E;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+letter-spacing: -0.18px;
+
+}
+.footer-list>ul>li{
+    margin: 15px;
+    list-style-type: none;
+    color:#69697B;    
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .footer-list{
+        flex-wrap: wrap;
+    }
+    .testimonial{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .special-receipe{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .receipe-card{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    
+  }
